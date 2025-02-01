@@ -8,4 +8,8 @@
 - Go to your GitHub account settings.
 - Click on “SSH and GPG keys.”
 - Click “New SSH Key” or “Add SSH Key.”
+6. add this under `~/.gitconfig`
+    [url "ssh://git@github.com/"]
+        insteadOf = https://github.com/
+
 
